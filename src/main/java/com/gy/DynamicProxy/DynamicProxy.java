@@ -11,7 +11,7 @@ public class DynamicProxy implements InvocationHandler {
     Object target;
     public DynamicProxy(Object target) {
         super();
-        this.target = target;
+        this.target = target;//注意此处的target，设定需要被代理的对象。
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
@@ -29,6 +29,7 @@ public class DynamicProxy implements InvocationHandler {
     public static void main(String[] args) {
         UserInterface userInterfaceImpl = new UserInterfaceImpl();
         InvocationHandler invocationHandler = new DynamicProxy(userInterfaceImpl);
+        //be care, three params , 第一个是被代理的类的classLoader， 第二个参数 被代理类说实现的接口， 第三个参数自己实现的InvocationHandler类的实例
         UserInterface userInterface1 = (UserInterface) Proxy.newProxyInstance(userInterfaceImpl.getClass().getClassLoader(),userInterfaceImpl.getClass().getInterfaces(),invocationHandler);
         System.out.println(userInterface1.getName());
         System.out.println(userInterface1.getId());
