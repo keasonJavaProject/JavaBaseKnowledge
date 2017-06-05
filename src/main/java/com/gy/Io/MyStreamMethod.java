@@ -15,7 +15,8 @@ import java.util.Scanner;
  * Created by KEASON on 2017/5/26.
  */
 public class MyStreamMethod {
-   static String path ="d://localData/data.txt";
+    static String path ="d://localData/data.txt";
+    static String Jsonpath="d://localData/Json.txt";
 
     public static void main(String[] args) throws Exception {
 
@@ -33,9 +34,10 @@ public class MyStreamMethod {
 //        };
 //        outputStream.close();
 //        showAllData(path);
+        showAllData(Jsonpath);
 //        showLineById("1000");
 //        showAllDataFromInputStream(path);
-        showAllDataFromByteInputStream(path);
+//        showAllDataFromByteInputStream(path);
     }
 
     static void showLineById(String id) throws Exception {
@@ -58,7 +60,7 @@ public class MyStreamMethod {
 
     static void showAllData(String url) throws Exception {
         System.out.println("showAllDate,the result is:");
-        File file = createOrGetFile(path);
+        File file = createOrGetFile(url);
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String line ="";
         while((line = bufferedReader.readLine())!=null){
