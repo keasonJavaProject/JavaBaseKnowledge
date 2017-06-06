@@ -1,12 +1,11 @@
 package com.gy.CommonOperation;
 
-import java.util.Arrays;
 
 /**
  * Created by KEASON on 2017/5/24.
  */
 public class ArrayThreeTest {
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         int m [][][]  =
         {
                 {
