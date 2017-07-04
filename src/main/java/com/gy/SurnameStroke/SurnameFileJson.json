@@ -1,6 +1,6 @@
-[	{
-		"code": "UTF-8 without bom"
-	}, "oneNameGetOne": {
+{
+	"code": "UTF-8 without bom",
+	"oneNameGetOne": {
 		"怀": 7,
 		"封": 9,
 		"逄": 9,
@@ -442,7 +442,8 @@
 		"诸": 10,
 		"司": 5,
 		"寿": 7
-	}, "twoNameGetTwo": {
+	},
+	"twoNameGetTwo": {
 		"百里": 13,
 		"漆雕": 30,
 		"宗政": 17,
@@ -503,7 +504,8 @@
 		"南门": 12,
 		"尉迟": 18,
 		"司马": 8
-	}, "twoNameGetFirst": {
+	},
+	"twoNameGetFirst": {
 		"百里": 6,
 		"漆雕": 14,
 		"宗政": 8,
@@ -565,4 +567,4 @@
 		"尉迟": 11,
 		"司马": 5
 	}
-]
+}
