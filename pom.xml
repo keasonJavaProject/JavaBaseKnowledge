@@ -40,5 +40,34 @@
       <artifactId>commons-lang3</artifactId>
       <version>3.5</version>
     </dependency>
+
+    <!--log4fapi-->
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.8.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.8.2</version>
+      </dependency>
+
+     <!--slf接口-->
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.8.0-alpha2</version>
+    </dependency>
+
+    <!--log4j 和 slf适配-->
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-to-slf4j</artifactId>
+      <version>2.8.2</version>
+    </dependency>
+
   </dependencies>
 </project>

@@ -76,6 +76,10 @@ public class TryCatchFinally {
 //        return 6;       //4
     }
 
+
+   /*
+    以下例子，说明，finally 中的return（3处） 和 最后的return（4处） 不能同时存在。
+    */
     //此时返回的值 3
     static int getV7(int a,int b){
         try{
