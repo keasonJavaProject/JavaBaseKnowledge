@@ -40,15 +40,17 @@ public class MyTestUnCatchedRegex {
         }
 
 
-        //test1 非捕获分组， 给分组起名字
+        //test2
         str = "hello123123keason@163.com";
         pattern = Pattern.compile("(hello)(.*)");
         matcher = pattern.matcher(str);
         if (matcher.matches()){
+            System.out.println("test2:"+matcher.group(0));
             System.out.println("test2:"+matcher.group(1));
+            System.out.println("test2:"+matcher.group(2));
         }
 
-        //test2
+        //test1 非捕获分组， 给分组起名字
         pattern = Pattern.compile("hello(?<name>\\d+)(keason@163.com)(.*)");
         matcher = pattern.matcher(str);
         if (matcher.matches()){
@@ -60,16 +62,6 @@ public class MyTestUnCatchedRegex {
         aa = aa.replaceAll("(.)\\1+", "$1");
         System.out.println("test3:"+aa);
 
-
-        //test4
-        String temp = "192.168.1.200 10.10.10.10 3.3.50.3 127.0.0.1";
-        temp=temp.replaceAll("(\\d+)", "00$1");//00192.00168.001.00200 0010.0010.0010.0010 003.003.0050.003 00127.000.000.001
-        temp=temp.replaceAll("0+(\\d{3})", "$1");//将ip地址补成同样位数  192.168.001.200 010.010.010.010 003.003.050.003 127.000.000.001
-        String[] str1=temp.split(" +");
-        Arrays.sort(str1);
-        for(String ips:str1){
-            System.out.println(ips.replaceAll("0+(\\d+)", "$1"));
-        }
 
         //test5
         pattern = Pattern.compile("(?:(\\d+))?\\s?([a-zA-Z]+)?.+");
