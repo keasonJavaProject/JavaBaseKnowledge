@@ -19,7 +19,7 @@ public class MyPattern {
      */
     public static void main(String[] args) {
         String testStr = "aabbccdd";
-        Pattern pattern = Pattern.compile("((aa)(bb)(cc)(dd))");
+        Pattern pattern = Pattern.compile("(aa)(bb)(cc)(dd)");
         Matcher matcher = pattern.matcher(testStr);
         if (matcher.find()) {
             for (int i = 0; i <= matcher.groupCount(); i++) {
