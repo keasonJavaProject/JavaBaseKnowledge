@@ -17,10 +17,10 @@ public class MyTestRegex {
     public static void main(String[] args) {
         String line ="'<i ng-if=\"grid.appScope.functionRoleArr[5] == 1\" ng-click=\"grid.appScope.periodChanage(row.entity)\"  class=\"glyphicon glyphicon-ok list_icon\"></i>'";
 //        line ="fffgrid.appScope.functionRoleArr[5] == 1";
-        Pattern pattern = Pattern.compile("(.*\"grid.appScope.)(.*)(\"[ ]*ng.*)");
+        Pattern pattern = Pattern.compile("((.*\"grid.appScope.)(.*)(\"[ ]*ng.*))");
         Matcher m = pattern.matcher(line);
         if(m.matches()) {
-            for (int i =0;i<m.groupCount();i++){
+            for (int i =0;i<=m.groupCount();i++){
                 System.out.println(m.group(i));
             }
         }
