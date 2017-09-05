@@ -57,12 +57,6 @@ public class MyTestUnCatchedRegex {
             System.out.println("test1:"+matcher.group("name"));
         }
 
-        //test3
-        aa ="AAABBBCCCCCC";
-        aa = aa.replaceAll("(.)\\1+", "$1");
-        System.out.println("test3:"+aa);
-
-
         //test5
         pattern = Pattern.compile("(?:(\\d+))?\\s?([a-zA-Z]+)?.+");
         String source = "2133 fdsdee4333";

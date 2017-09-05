@@ -18,6 +18,10 @@ public class MyReplaceAll {
         //替换掉从开头起，第三个aa 为**
         System.out.println(replaceStr.replaceAll("(aa)(.*)(\\1)(.*)(\\1)(.*)(\\1)","$1$2$3$4**$6$7"));
 
+        //test3
+        String aa ="AAABBBCCCCCC";
+        aa = aa.replaceAll("(.)\\1+", "$1");
+        System.out.println("test3:"+aa);
 
         //批量替换相同字符,补全成相同前缀，然后再截取出相同的长度。
         String temp = "192.168.1.200 10.10.10.10 3.3.50.3 127.0.0.1";
