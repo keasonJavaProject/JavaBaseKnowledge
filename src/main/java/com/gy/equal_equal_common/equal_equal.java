@@ -8,6 +8,8 @@ public class equal_equal {
         /**
          * java中还有与Integer类似的是Long，它也有一个缓存，在区间[-128,127]范围内获取缓存的值，
          * 而Long与long比较的时候先转换成long类型再做值的比较
+         * 注意：== 运算符在不遇到算数运算符的情况下不会自动拆箱
+         *      equals(),方法不处理数据转化关系。
          */
         Integer a =1;
         Integer b=2;
