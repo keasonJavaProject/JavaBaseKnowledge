@@ -1,4 +1,4 @@
-package com.gy.dynamic;
+package com.gy.polymorphic;
 
 /**
  * Created by PicaHelth on 2017/9/13.

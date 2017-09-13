@@ -1,4 +1,4 @@
-package com.gy.dynamic;
+package com.gy.polymorphic;
 
 class Woman extends Human {
 

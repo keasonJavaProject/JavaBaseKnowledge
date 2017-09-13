@@ -1,4 +1,4 @@
-package com.gy.dynamic;
+package com.gy.polymorphic;
 
 class Man extends Human {
 
