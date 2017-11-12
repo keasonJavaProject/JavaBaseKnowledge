@@ -2,6 +2,7 @@ package com.design.patterns.factory.abstractFactory;
 
 /**
  * Created by PicaHelth on 2017/11/12.
+ * 具体产品
  */
 public class NorthernVeggie implements Veggie {
     private String name;

@@ -2,6 +2,7 @@ package com.design.patterns.factory.sampleFactory;
 
 /**
  * Created by PicaHelth on 2017/11/12.
+ * 具体产品
  */
 public class Apple implements Fruit {
     private int treeAge;

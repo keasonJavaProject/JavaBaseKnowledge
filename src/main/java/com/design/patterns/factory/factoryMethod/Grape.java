@@ -3,6 +3,7 @@ package com.design.patterns.factory.factoryMethod;
 
 /**
  * Created by PicaHelth on 2017/11/12.
+ * 具体产品
  */
 public class Grape implements Fruit {
     private boolean seederless;

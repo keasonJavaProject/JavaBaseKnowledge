@@ -2,6 +2,7 @@ package com.design.patterns.factory.sampleFactory;
 
 /**
  * Created by PicaHelth on 2017/11/12.
+ * 建造者
  */
 public class FruitGardener {
     public static Fruit factory(String type) throws BadFruitException{
