@@ -1,6 +1,4 @@
-package my.regex;
-
-import jdk.internal.util.xml.impl.Input;
+package com.gy.regex;
 
 import java.io.*;
 import java.util.regex.Matcher;

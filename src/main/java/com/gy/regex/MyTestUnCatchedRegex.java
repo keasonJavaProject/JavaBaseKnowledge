@@ -1,6 +1,5 @@
-package my.regex;
+package com.gy.regex;
 
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
