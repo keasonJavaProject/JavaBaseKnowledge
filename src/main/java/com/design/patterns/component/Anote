@@ -1,0 +1,7 @@
+1.透明合成模式 和安全合成模式区别
+    透明合成模式，都是继承component，这个component 默认不支持get add remove,对于叶子节点不支持这些操作的。
+                 Composite也是继承component，但是 覆盖了get add remove 方法，可以支持。
+
+    安全合成模式，
+            leaf: implements  component,方法只有 printStruct
+            composite : implements component ，方法有 add  remove get 和 printStruct
