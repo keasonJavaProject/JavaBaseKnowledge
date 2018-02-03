@@ -5,6 +5,10 @@ import ognl.Ognl;
 import ognl.OgnlContext;
 import ognl.OgnlException;
 
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
 /**
  * Created by keason on 2018/1/13.
  *  http://commons.apache.org/proper/commons-ognl/language-guide.html
@@ -94,7 +98,16 @@ public class MyOnglTest {
         System.out.println();
 
 
-
+/**
+ public static Object newProxyInstance(ClassLoader loader,Class<?>[] interfaces, InvocationHandler h)
+ throws IllegalArgumentException
+ */
+Object object = Proxy.newProxyInstance(String.class.getClassLoader(), null, new InvocationHandler() {
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        return null;
+    }
+});
 
 
 
