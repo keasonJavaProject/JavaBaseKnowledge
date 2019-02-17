@@ -1,5 +1,6 @@
 package com.jackson;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonView;
 
 /**
@@ -10,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonView;
  * @auther: yant09
  * @date: 2019/2/17 08:52
  */
+@JsonFilter("myFilter")
 public class MyJsonViewFilter {
     @JsonView(Public.class)
     public int id;
