@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="google common 的测试用例">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/MyForkJoinPoolTest.java" afterDir="false" />
+    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="ForkJoinPool test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/MyCompletableFutureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaBaseKnowledge.iws" />
@@ -39,18 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
@@ -62,14 +50,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyForkJoinPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="418">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyCompletableFutureTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletionStage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="298" column="36" selection-start-line="298" selection-start-column="36" selection-end-line="298" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletableFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="2193" column="32" selection-start-line="2193" selection-start-column="32" selection-end-line="2193" selection-end-column="32" />
+              <folding>
+                <element signature="e#84041#84042#0" expanded="true" />
+                <element signature="e#84095#84096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,37 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0-jre/guava-27.0-jre.jar!/com/google/common/collect/Maps.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="497" column="41" selection-start-line="497" selection-start-column="41" selection-end-line="497" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0-jre/guava-27.0-jre.jar!/com/google/common/collect/Lists.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
-              <folding>
-                <element signature="e#4595#4596#0" expanded="true" />
-                <element signature="e#4656#4657#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyArrayBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -172,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/node/Composite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/compositeNode/Composite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/nodeComposited/IntegratedBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/nodeComposited/Pc.java" />
@@ -223,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/MyListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/MyForkJoinPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/MyCompletableFutureTest.java" />
       </list>
     </option>
   </component>
@@ -353,7 +353,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/JavaGitHue/AllProjects/JavaBaseKnowledge/src/main/java/com/gy/CommonOperation/ArrayThreeTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560072208383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560076792252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -397,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyForkJoinPoolTest">
+  <component name="RunManager" selected="Application.MyCompletableFutureTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -455,13 +455,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubRepoPageProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crawler.GithubRepoPageProcessor" />
+    <configuration name="MyCompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.MyCompletableFutureTest" />
       <module name="JavaBaseKnowledge" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crawler.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -594,18 +594,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.GithubRepoPageProcessor" />
       <item itemvalue="Application.MyLocalDateTime" />
       <item itemvalue="Application.MyListTest" />
       <item itemvalue="Application.MyForkJoinPoolTest" />
+      <item itemvalue="Application.MyCompletableFutureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCompletableFutureTest" />
         <item itemvalue="Application.MyForkJoinPoolTest" />
         <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MyLocalDateTime" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.GithubRepoPageProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -786,11 +786,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560070057891</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ForkJoinPool test">
+      <created>1560072225243</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560072225243</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164753000" />
+    <option name="totallyTimeSpent" value="168311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,7 +813,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24932976" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24932976" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -819,14 +826,14 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32879046" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.55278593" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" weight="0.4463373" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" visible="true" weight="0.4457478" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.39693356" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32879046" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32551318" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3240469" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3284553" />
       <window_info anchor="bottom" id="SimpleHttpClient" order="14" />
@@ -962,7 +969,8 @@
     <MESSAGE value="java 正则表达式，分组" />
     <MESSAGE value="添加LocalDateTime 测试用例" />
     <MESSAGE value="google common 的测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="google common 的测试用例" />
+    <MESSAGE value="ForkJoinPool test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ForkJoinPool test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1065,7 +1073,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/gy/CommonOperation/StaticMethodOverrideDog.java</url>
           <line>6</line>
-          <properties class="com.gy.CommonOperation.StaticMethodOverrideDog">
+          <properties class="com.gy.CommonOperation.StaticMethodOverrideDog" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="30" />
@@ -1073,7 +1081,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/gy/regex/MyTestRegex.java</url>
           <line>16</line>
-          <properties class="com.gy.regex.MyTestRegex">
+          <properties class="com.gy.regex.MyTestRegex" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="49" />
@@ -1081,7 +1089,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/gy/regex/MyRegexThreeModel.java</url>
           <line>6</line>
-          <properties class="com.gy.regex.MyRegexThreeModel">
+          <properties class="com.gy.regex.MyRegexThreeModel" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="60" />
@@ -1089,7 +1097,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/gy/regex/MyPattern.java</url>
           <line>19</line>
-          <properties class="com.gy.regex.MyPattern">
+          <properties class="com.gy.regex.MyPattern" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="61" />
@@ -1097,7 +1105,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/sampleFactory/Client.java</url>
           <line>7</line>
-          <properties class="com.design.patterns.factory.sampleFactory.Client">
+          <properties class="com.design.patterns.factory.sampleFactory.Client" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="65" />
@@ -1105,7 +1113,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java</url>
           <line>76</line>
-          <properties class="com.test.MyLocalDateTime">
+          <properties class="com.test.MyLocalDateTime" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="66" />
@@ -1118,34 +1126,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/sampleFactory/FruitGardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/sampleFactory/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/Grape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1438,8 +1418,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyForkJoinPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state relative-caret-position="418">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletionStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="298" column="36" selection-start-line="298" selection-start-column="36" selection-end-line="298" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="2193" column="32" selection-start-line="2193" selection-start-column="32" selection-end-line="2193" selection-end-column="32" />
+          <folding>
+            <element signature="e#84041#84042#0" expanded="true" />
+            <element signature="e#84095#84096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyCompletableFutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
