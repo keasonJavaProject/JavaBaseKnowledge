@@ -1,5 +1,9 @@
 package com.lamba;
 
+import com.gy.jsonView.Student;
+
+import java.util.List;
+
 /**
  * @ClassName:
  * @Description:
@@ -9,6 +13,7 @@ package com.lamba;
 public class MyEntity {
     private Integer id;
     private String name;
+    private List<MyEntity> list;
 
     public Integer getId() {
         return id;
@@ -26,8 +31,17 @@ public class MyEntity {
         this.name = name;
     }
 
-    public MyEntity(Integer id, String name) {
+    public MyEntity(Integer id, String name, List<MyEntity> list) {
         this.id = id;
         this.name = name;
+        this.list = list;
+    }
+
+    public List<MyEntity> getList() {
+        return list;
+    }
+
+    public void setList(List<MyEntity> list) {
+        this.list = list;
     }
 }
