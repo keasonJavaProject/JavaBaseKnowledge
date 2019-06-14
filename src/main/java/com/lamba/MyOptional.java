@@ -2,11 +2,9 @@ package com.lamba;
 
 import com.gy.jsonView.Student;
 import com.util.sort.SortUtil;
+import org.apache.commons.collections.CollectionUtils;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -18,14 +16,16 @@ import java.util.stream.Stream;
  */
 public class MyOptional {
     public static void main(String[] args) {
-        List<MyEntity> myEntityList = Stream.of(new MyEntity(1, "1",Arrays.asList(new MyEntity(11,"11",null), new MyEntity(111,"111",null))),
+        List<MyEntity> myEntityList = Arrays.asList(new MyEntity(22,"22",null), new MyEntity(222,"222",null));
+        myEntityList = Optional.ofNullable(myEntityList).filter(infos -> CollectionUtils.isNotEmpty(infos)).orElse(Arrays.asList(new MyEntity(11, "11", null), new MyEntity(111, "111", null)))
+                .stream().filter(temp -> temp.getId() > 1).collect(Collectors.toList());
+        myEntityList = Stream.of(new MyEntity(1, "1",Arrays.asList(new MyEntity(11,"11",null), new MyEntity(111,"111",null))),
                 new MyEntity(2, "2",Arrays.asList(new MyEntity(22,"22",null), new MyEntity(222,"222",null))),
                 new MyEntity(3, "3",Arrays.asList(new MyEntity(33,"33",null), new MyEntity(333,"333",null),new MyEntity(33,"33",null))))
                 .collect(Collectors.toList());
 
         Set<String> strNames = myEntityList.stream().filter(in -> in != null).flatMap(info -> info.getList().stream()).filter((MyEntity aa) -> aa.getId() >= 2).map(MyEntity::getName).collect(Collectors.toSet());
         System.out.println(strNames);
-
         System.out.println("比较2个list 大小");
         System.out.println(myEntityList.stream().collect(Collectors.toList()).size());
         System.out.println(myEntityList.stream().filter(i -> i != null).collect(Collectors.toList()).size());
