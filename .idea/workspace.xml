@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="新增Labmda表达式测试用例">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java" afterDir="false" />
+    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="新增了flatMap的理解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java" afterDir="false" />
     </list>
     <ignored path="JavaBaseKnowledge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+            <state relative-caret-position="29">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2775#2776#0" expanded="true" />
@@ -63,8 +63,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="181">
+              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1729#1730#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2120#2121#0" expanded="true" />
+                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="e#2352#2353#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#2766#2767#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -360,7 +371,7 @@
     <property name="SearchEverywhereHistoryKey" value="Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;DouSummaryStatistics&#9;PSI&#9;JAVA://java.util.DoubleSummaryStatistics&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560587006195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560588945908" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -619,7 +630,7 @@
       <workItem from="1560474069038" duration="1663000" />
       <workItem from="1560478135140" duration="1497000" />
       <workItem from="1560487316035" duration="10301000" />
-      <workItem from="1560569622908" duration="6790000" />
+      <workItem from="1560569622908" duration="8730000" />
     </task>
     <task id="LOCAL-00001" summary="提交一些基本的测试">
       <created>1501203900103</created>
@@ -796,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560585726846</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="新增了flatMap的理解">
+      <created>1560587041386</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560587041386</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193100000" />
+    <option name="totallyTimeSpent" value="195040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,7 +997,8 @@
     <MESSAGE value="新增lambda 表达式测试" />
     <MESSAGE value="新增option 的所有测试用例" />
     <MESSAGE value="新增Labmda表达式测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增Labmda表达式测试用例" />
+    <MESSAGE value="新增了flatMap的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了flatMap的理解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1075,13 +1094,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>96</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>103</line>
+          <line>104</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1089,7 +1108,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>108</line>
+          <line>109</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1097,7 +1116,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>113</line>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -1455,8 +1474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+        <state relative-caret-position="29">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2775#2776#0" expanded="true" />
@@ -1469,8 +1488,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="181">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2766#2767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
