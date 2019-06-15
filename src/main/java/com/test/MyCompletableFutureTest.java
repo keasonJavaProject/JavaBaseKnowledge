@@ -3,7 +3,6 @@ package com.test;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.BiConsumer;
-import java.util.function.Function;
 
 public class MyCompletableFutureTest {
     public static void main(String[] args) {
