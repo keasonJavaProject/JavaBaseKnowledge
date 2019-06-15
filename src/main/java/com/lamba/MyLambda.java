@@ -4,9 +4,7 @@ import com.alibaba.fastjson.JSON;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.function.ToDoubleFunction;
-import java.util.function.ToIntFunction;
+import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -101,9 +99,75 @@ public class MyLambda {
         Map<Boolean, List<MyEntity>> booleanListMap = myEntityList.stream().collect(Collectors.partitioningBy(info -> info.getId() > 2));
         Stream.of(booleanListMap).peek(info-> System.out.println(JSON.toJSONString(info))).forEach(info -> System.out.println(JSON.toJSONString(info)));
 
-        System.out.println("数据分片 groupingBy \r\n");
-        Map maps = myEntityList.stream().collect(Collectors.groupingBy(myEntity1 -> myEntity1.getName()));
+        System.out.println("数据分片 groupingBy 按照姓名统计List<MyEntity>\r\n");
+        Map<String,List<MyEntity>> maps = myEntityList.stream().collect(Collectors.groupingBy(myEntity1 -> myEntity1.getName()));
         Stream.of(maps).peek(info-> System.out.println(JSON.toJSONString(info))).forEach(info -> System.out.println(JSON.toJSONString(info)));
+
+        System.out.println("\n数据分片 groupingBy 按照姓名统计list数量");
+        Map<String, Long> mapCount = myEntityList.stream().collect(Collectors.groupingBy(new Function<MyEntity, String>() {
+            @Override
+            public String apply(MyEntity myEntity) {
+                return myEntity.getName();
+            }
+        }, Collectors.counting()));
+        System.out.println((JSON.toJSONString(mapCount)));
+
+
+        System.out.println("\n计算内层的MyEntity sum");
+        System.out.println(myEntityList.stream().mapToLong(info -> info.getList().stream().mapToLong(infoInner -> infoInner.getId()).count()).sum());
+
+
+//        myEntityList.stream().collect(Collectors.groupingBy(new Function<MyEntity, String>() {
+//            @Override
+//            public String apply(MyEntity myEntity) {
+//                return myEntity.getName();
+//            }
+//        },Collectors.mapping(new Function<List<MyEntity>, Long>() {
+//            @Override
+//            public Long apply(List<MyEntity> myEntities) {
+//                return Long.valueOf(myEntities.stream().mapToInt(info -> info.getId()).summaryStatistics().getSum());
+//            }
+//        }));
+
+
+        //格式化姓名输出
+        String names = Optional.ofNullable(myEntityList).orElse(Collections.emptyList()).stream()
+                .map(info -> info.getName()).collect(Collectors.joining(",", "[", "]"));
+        System.out.println("\n格式化姓名输出 " + names);
+
+        //格式化姓名输出 stringBuilder.reduce
+        System.out.println("\n格式化姓名输出 stringBuilder.reduce");
+        StringBuilder stringBuilder = Optional.ofNullable(myEntityList).orElse(Collections.emptyList()).stream()
+                .map(MyEntity::getName).reduce(new StringBuilder(), new BiFunction<StringBuilder, String, StringBuilder>() {
+                    @Override
+                    public StringBuilder apply(StringBuilder stringBuilder, String s) {
+                        return stringBuilder.append(s).append(",");
+                    }
+                }, new BinaryOperator<StringBuilder>() {
+                    @Override
+                    public StringBuilder apply(StringBuilder stringBuilder, StringBuilder stringBuilder2) {
+                        return stringBuilder.append(stringBuilder2);
+                    }
+                });
+        stringBuilder.insert(0,"[");
+        stringBuilder.append("]");
+        System.out.println(stringBuilder.toString());
+
+
+        //Map computeIfAbsent
+        Map<String, Integer> map = new HashMap<>();
+        Stream.of(1,1,1).collect(Collectors.toList()).stream().forEach(info->{
+            map.putIfAbsent("1", 1);
+        });
+
+        //Map forEach
+        System.out.println("\nMap forEach 一次循环key value 都得的");
+        map.forEach(new BiConsumer<String, Integer>() {
+            @Override
+            public void accept(String s, Integer integer) {
+                System.out.println("key =   " + s + "   value   =" + integer);
+            }
+        });
 
     }
 }
