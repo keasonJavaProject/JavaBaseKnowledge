@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="">
+    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="新增lambda 表达式测试">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" afterDir="false" />
     </list>
     <ignored path="JavaBaseKnowledge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +12,6 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,16 +39,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MyArrayBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyArrayBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyCollector.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyCollector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -57,34 +48,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyEntity.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2622#2623#0" expanded="true" />
+                <element signature="e#2699#2700#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyOptional.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="214">
+              <caret line="65" column="83" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Collectors.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="-86">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
               <caret line="803" column="4" selection-start-line="803" selection-start-column="4" selection-end-line="803" selection-end-column="4" />
               <folding>
                 <element signature="e#33990#33991#0" expanded="true" />
@@ -94,47 +107,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Stream.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/lambdaInterface.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Optional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="358" column="14" selection-start-line="358" selection-start-column="14" selection-end-line="358" selection-end-column="14" />
+            <state relative-caret-position="134">
+              <caret line="209" column="26" selection-start-line="209" selection-start-column="26" selection-end-line="209" selection-end-column="26" />
+              <folding>
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1711#1712#0" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="e#3042#3043#0" expanded="true" />
+                <element signature="e#4242#4243#0" expanded="true" />
+                <element signature="e#4278#4279#0" expanded="true" />
+                <element signature="e#8628#8629#0" expanded="true" />
+                <element signature="e#8680#8681#0" expanded="true" />
+                <element signature="e#9141#9142#0" expanded="true" />
+                <element signature="e#9199#9200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/IntStream.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Objects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="535" column="24" selection-start-line="535" selection-start-column="4" selection-end-line="535" selection-end-column="24" />
+            <state relative-caret-position="142">
+              <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleSummaryStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/DoubleSummaryStatistics.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/jsonView/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -160,6 +174,7 @@
       <find />
       <find>grid.appScope</find>
       <find>jackson</find>
+      <find>maxBy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/nodeComposited/Pc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/Visitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/visitor/InventoryVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/visitor/PriceVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/nodeComposited/Composite.java" />
@@ -220,14 +233,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gy/jsonView/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyOption.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -257,9 +266,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -274,7 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,6 +329,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ongl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBaseKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBaseKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,13 +358,15 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;DouSummaryStatistics&#9;PSI&#9;JAVA://java.util.DoubleSummaryStatistics&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560566140539" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -393,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyOptional">
+  <component name="RunManager" selected="Application.MyOption">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -451,20 +468,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubRepoPageProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crawler.GithubRepoPageProcessor" />
-      <module name="JavaBaseKnowledge" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyArrayBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.MyArrayBlockingQueue" />
       <module name="JavaBaseKnowledge" />
@@ -472,6 +475,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lamba.MyLambda" />
+      <module name="JavaBaseKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lamba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,8 +510,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lamba.MyOptional" />
+    <configuration name="MyOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lamba.MyOption" />
       <module name="JavaBaseKnowledge" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -590,18 +607,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.GithubRepoPageProcessor" />
       <item itemvalue="Application.MyLocalDateTime" />
       <item itemvalue="Application.MyArrayBlockingQueue" />
-      <item itemvalue="Application.MyOptional" />
+      <item itemvalue="Application.MyLambda" />
+      <item itemvalue="Application.MyOption" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyOptional" />
+        <item itemvalue="Application.MyOption" />
+        <item itemvalue="Application.MyLambda" />
         <item itemvalue="Application.MyArrayBlockingQueue" />
         <item itemvalue="Application.MyLocalDateTime" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.GithubRepoPageProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -814,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560504864630</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="新增lambda 表达式测试">
+      <created>1560560664636</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560560664636</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177730000" />
+    <option name="totallyTimeSpent" value="183219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,89 +854,89 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3281075" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.39693356" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32703927" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5531915" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" visible="true" weight="0.4456887" />
-      <window_info anchor="bottom" id="Bitbucket Issues" order="15" />
-      <window_info anchor="bottom" id="DB Execution Console" order="16" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3288926" />
-      <window_info anchor="right" id="Properties" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="DB Browser" order="9" />
       <window_info id="Nl-Palette" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19369973" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.13711001" />
+      <window_info id="DB Browser" order="9" />
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49676898" weight="0.20957096" />
-      <window_info anchor="bottom" id="Spring" order="12" weight="0.3284553" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Web" order="6" side_tool="true" weight="0.13711001" />
-      <window_info anchor="bottom" id="SimpleHttpClient" order="14" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33431086" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" weight="0.50293255" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.39693356" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281075" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3284553" />
+      <window_info anchor="bottom" id="SimpleHttpClient" order="15" />
+      <window_info anchor="bottom" id="Bitbucket Issues" order="16" />
+      <window_info anchor="bottom" id="DB Execution Console" order="17" />
+      <window_info anchor="right" id="Properties" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32703927" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3288926" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32930514" />
       <window_info anchor="right" id="Code explorer" order="12" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="1" sideWeight="0.49676898" weight="0.20957096" />
-      <window_info anchor="right" id="Designer" order="7" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3284553" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.39011925" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Properties" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.39794168" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="SimpleHttpClient" order="14" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Bitbucket Issues" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32879046" />
       <window_info id="Nl-Palette" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22205438" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="8" side_tool="true" weight="0.13711001" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
       <window_info id="Palette&#9;" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Structure" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32930514" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.13711001" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Application Servers" order="1" sideWeight="0.49676898" weight="0.20957096" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32879046" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3288926" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.39011925" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" weight="0.4463373" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.39794168" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32879046" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3284553" />
+      <window_info anchor="bottom" id="SimpleHttpClient" order="14" />
+      <window_info anchor="bottom" id="Bitbucket Issues" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Properties" order="1" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3288926" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32930514" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,6 +977,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -961,9 +999,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交一些基本的测试" />
@@ -1077,22 +1112,22 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java</url>
-          <line>69</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java</url>
-          <line>76</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
+          <line>103</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java</url>
-          <line>81</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
+          <line>108</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1153,7 +1188,6 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1161,69 +1195,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/FruitGardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/AppleFruitGardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod/GrapeFruitGardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/Gardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/Veggie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/NorthernFruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/NorthernGardener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/abstractFactory/NorthernVeggie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1286,13 +1257,7 @@
       </provider>
     </entry>
     <entry file="jar://D:/MavenResp/DevelopCode/Repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonView.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/ByteArrayOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/ByteArrayOutputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongl/SlEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1308,27 +1273,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/time/chrono/ChronoZonedDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8303">
-          <caret line="530" column="19" selection-start-line="530" selection-start-column="12" selection-end-line="530" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar!/org/apache/http/client/utils/DateUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar!/org/joda/time/format/DateTimeFormatter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/time/chrono/ChronoZonedDateTime.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar!/org/apache/http/client/utils/DateUtils.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar!/org/joda/time/format/DateTimeFormatter.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2318">
@@ -1378,24 +1325,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3648">
-          <caret line="237" column="11" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
-          <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/ArrayBlockingQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1805">
@@ -1420,13 +1351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1450,45 +1375,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/DoubleSummaryStatistics.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/IntStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Stream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Collectors.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/lambdaInterface.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/DoubleSummaryStatistics.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="535" column="24" selection-start-line="535" selection-start-column="4" selection-end-line="535" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="358" column="14" selection-start-line="358" selection-start-column="14" selection-end-line="358" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="210">
           <caret line="803" column="4" selection-start-line="803" selection-start-column="4" selection-end-line="803" selection-end-column="4" />
           <folding>
             <element signature="e#33990#33991#0" expanded="true" />
@@ -1497,12 +1399,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="-190">
+          <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyCompletableFutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletionStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4940">
+          <caret line="298" column="36" selection-start-line="298" selection-start-column="36" selection-end-line="298" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40242">
+          <caret line="2193" column="32" selection-start-line="2193" selection-start-column="32" selection-end-line="2193" selection-end-column="32" />
+          <folding>
+            <element signature="e#84041#84042#0" expanded="true" />
+            <element signature="e#84095#84096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="209" column="26" selection-start-line="209" selection-start-column="26" selection-end-line="209" selection-end-column="26" />
+          <folding>
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+            <element signature="e#4278#4279#0" expanded="true" />
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+            <element signature="e#9141#9142#0" expanded="true" />
+            <element signature="e#9199#9200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="65" column="83" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
           </folding>
         </state>
       </provider>
