@@ -71,5 +71,21 @@ public class MyLambdaTwo {
             }
         })));
         System.out.println(JSON.toJSONString(mapIdSumListIds));
+
+        System.out.println("\n groupingBy Collectors.mapping");
+        mapIdSumListIds = myEntityList.stream().collect(Collectors.groupingBy(new Function<MyEntity, String>() {
+            @Override
+            public String apply(MyEntity myEntity) {
+                return myEntity.getName();
+            }
+        }, Collectors.mapping(new Function<MyEntity, Double>() {
+
+            @Override
+            public Double apply(MyEntity myEntity) {
+                return Double.valueOf(myEntity.getList().stream().mapToInt(info -> info.getId()).sum());
+            }
+        }, Collectors.averagingDouble(in -> in))));
+        System.out.println(JSON.toJSONString(mapIdSumListIds));
+
     }
 }
