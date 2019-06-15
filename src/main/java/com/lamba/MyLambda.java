@@ -28,9 +28,10 @@ public class MyLambda {
                 new MyEntity(3, "3",Arrays.asList(new MyEntity(33,"33",null), new MyEntity(333,"333",null),new MyEntity(33,"33",null))))
                 .collect(Collectors.toList());
 
-        Set<String> strNames = myEntityList.stream().filter(in -> in != null).flatMap(info -> info.getList().stream()).filter((MyEntity aa) -> aa.getId() >= 2).map(MyEntity::getName).collect(Collectors.toSet());
+        System.out.println("\nflatMap StrNames");
+        List<String> strNames = myEntityList.stream().filter(in -> in != null).flatMap(info -> info.getList().stream()).filter((MyEntity aa) -> aa.getId() >= 2).map(MyEntity::getName).collect(Collectors.toList());
         System.out.println(strNames);
-        System.out.println("比较2个list 大小");
+        System.out.println("\r比较2个list 大小");
         System.out.println(myEntityList.stream().collect(Collectors.toList()).size());
         System.out.println(myEntityList.stream().filter(i -> i != null).collect(Collectors.toList()).size());
 

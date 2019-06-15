@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="新增option 的所有测试用例">
+    <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="新增Labmda表达式测试用例">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" afterDir="false" />
     </list>
@@ -43,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+            <state relative-caret-position="257">
+              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2775#2776#0" expanded="true" />
@@ -55,6 +56,24 @@
                 <element signature="e#5591#5592#0" expanded="true" />
                 <element signature="e#5648#5649#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -89,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="695" column="10" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
+            <state relative-caret-position="366">
+              <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -128,24 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Objects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3097">
-              <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,6 +170,7 @@
       <find>jackson</find>
       <find>maxBy</find>
       <find>计算内层的id sum</find>
+      <find>flatM</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/visitor/InventoryVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/visitor/PriceVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/nodeComposited/Composite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/patterns/visitor/Client.java" />
@@ -229,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyOptional.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyOption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java" />
       </list>
     </option>
   </component>
@@ -358,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;DouSummaryStatistics&#9;PSI&#9;JAVA://java.util.DoubleSummaryStatistics&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560585655109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560587006195" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -367,8 +369,21 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\regex" />
+      <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\resources" />
+      <recent name="E:\JavaGitHue\JavaBaseKnowledge\src\main\java" />
+      <recent name="E:\JavaGitHue\JavaBaseKnowledge\src\main\java\com\gy" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lamba" />
+      <recent name="com.design.patterns.factory.factoryMethod" />
+      <recent name="com.design.patterns.factory.sampleFactory" />
+      <recent name="com.design.patterns.factory.abstractFactory" />
+      <recent name="com.design.patterns.visitor.nodeComposited" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\com\design\patterns\factory" />
@@ -376,19 +391,6 @@
       <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\regex" />
       <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\com\gy\log4j" />
       <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.design.patterns.factory.factoryMethod" />
-      <recent name="com.design.patterns.factory.sampleFactory" />
-      <recent name="com.design.patterns.factory.abstractFactory" />
-      <recent name="com.design.patterns.visitor.nodeComposited" />
-      <recent name="com.design.patterns.visitor.node" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\regex" />
-      <recent name="D:\JavaProject\MyGitHueProject\JavaBaseKnowledge\src\main\java\resources" />
-      <recent name="E:\JavaGitHue\JavaBaseKnowledge\src\main\java" />
-      <recent name="E:\JavaGitHue\JavaBaseKnowledge\src\main\java\com\gy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyLambdaTwo">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -463,6 +465,20 @@
     </configuration>
     <configuration name="MyLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lamba.MyLambda" />
+      <module name="JavaBaseKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lamba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLambdaTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lamba.MyLambdaTwo" />
       <module name="JavaBaseKnowledge" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -544,6 +560,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLambdaTwo" />
         <item itemvalue="Application.MyLambda" />
       </list>
     </recent_temporary>
@@ -602,7 +619,7 @@
       <workItem from="1560474069038" duration="1663000" />
       <workItem from="1560478135140" duration="1497000" />
       <workItem from="1560487316035" duration="10301000" />
-      <workItem from="1560569622908" duration="5432000" />
+      <workItem from="1560569622908" duration="6790000" />
     </task>
     <task id="LOCAL-00001" summary="提交一些基本的测试">
       <created>1501203900103</created>
@@ -772,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560566244837</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="新增Labmda表达式测试用例">
+      <created>1560585726846</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585726846</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191742000" />
+    <option name="totallyTimeSpent" value="193100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,7 +816,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09584451" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23123324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -805,8 +829,8 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49676898" weight="0.20957096" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.33431086" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" visible="true" weight="0.32111436" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33431086" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49785408" weight="0.32111436" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -954,7 +978,8 @@
     <MESSAGE value="lambda表达式。" />
     <MESSAGE value="新增lambda 表达式测试" />
     <MESSAGE value="新增option 的所有测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增option 的所有测试用例" />
+    <MESSAGE value="新增Labmda表达式测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增Labmda表达式测试用例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1050,13 +1075,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>95</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>102</line>
+          <line>103</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1064,7 +1089,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>107</line>
+          <line>108</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1072,7 +1097,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java</url>
-          <line>112</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -1138,20 +1163,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/jsonView/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongl/SlDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/MavenResp/DevelopCode/Repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonView.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/ByteArrayOutputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongl/SlEmployee.java">
@@ -1421,13 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="695" column="10" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1435,10 +1439,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+        <state relative-caret-position="257">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2775#2776#0" expanded="true" />
@@ -1446,6 +1464,13 @@
             <element signature="e#5591#5592#0" expanded="true" />
             <element signature="e#5648#5649#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lamba/MyLambdaTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
