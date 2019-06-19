@@ -16,6 +16,23 @@ import java.util.stream.Stream;
  */
 public class MyLambdaTwo {
     public static void main(String[] args) {
+        //新增toMap() 重复key的例子
+        List<Map> maps = new ArrayList<>();
+        Map map = new HashMap();
+        map.put("1", 1);
+        maps.add(map);
+        map = new HashMap();
+        map.put("2", 2);
+        maps.add(map);
+
+        map = new HashMap();
+        map.put("2", 22);
+        maps.add(map);
+        Map map1 = maps.stream().collect(Collectors.toMap(stringIntegerMap -> (String) stringIntegerMap.keySet().toArray()[0],
+                stringIntegerMap -> (Integer) stringIntegerMap.values().toArray()[0],(key1,key2)->key1));
+        System.out.println("\n新增toMap() 重复key的例子");
+        System.out.println(JSON.toJSONString(map1));
+
         List<Integer> one = Arrays.asList(1, 2, 3);
         List<Integer> Two = Arrays.asList(11, 22, 33);
         System.out.println("\n调用flatMap之前");//Stream<List<Integer>>
