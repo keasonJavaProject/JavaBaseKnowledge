@@ -84,5 +84,8 @@ public class MyListTest {
         System.out.println(mapDifference.entriesDiffering());
 
 
+        //list removeIf
+        list.removeIf(info -> info.intValue() == 1);
+
     }
 }
