@@ -86,8 +86,10 @@ public class MyOption {
 
         System.out.println(Optional.ofNullable(myEntityList).filter(list -> CollectionUtils.isNotEmpty(list)).
                 map(list -> list.get(0)).map(info -> info.getName()).orElse("nullName"));
-
-
+        System.out.println("////////////////////////////////////////////////////////////////////////////");
+        myEntityList =  Arrays.asList(new MyEntity(22,"22Name",null), new MyEntity(222,"222",null));;
+        Integer inte = PredicateUtil.mapListFirstObjectToOneValue(myEntityList, (MyEntity temp) -> temp.getId(), -1);
+        String name = PredicateUtil.mapListFirstObjectToOneValue(myEntityList, (MyEntity temp) -> temp.getName(), "nullName");
     }
 
     private static Object getOptionFunction(Optional optional) {
