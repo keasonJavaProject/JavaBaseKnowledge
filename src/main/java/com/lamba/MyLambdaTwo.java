@@ -110,9 +110,44 @@ public class MyLambdaTwo {
         System.out.println(firstVal);
 
 
-        System.out.println("flatMap 把 Stream<List<String>>合并list");
+        System.out.println("\nOptional map 和 flatMap 结果一样");
+        Function function = (Function<String, Optional>) s -> Optional.of("123");
+        System.out.println(Optional.ofNullable(null).flatMap(function).orElse("234"));
+        System.out.println(Optional.ofNullable(null).map(function).orElse("234"));
+
+
+        /**
+         *           flatMap 返回封装后的值， map 返回值没封装
+                     integerList.stream().flatMap(new Function<Integer, Stream<?>>() {
+                        @Override
+                        public Stream<?> apply(Integer integer) {
+                            return null;
+                        }
+                    });
+                     integerList.stream().map(new Function<Integer, Object>() {
+                        @Override
+                        public Object apply(Integer integer) {
+                            return null;
+                        }
+                    });
+
+                     Optional.ofNullable(null).map(new Function<String, Integer>() {
+                        @Override
+                        public Integer apply(String s) {
+                            return null;
+                        }
+                    });
+
+                     Optional.ofNullable(null).flatMap(new Function<Object, Optional<? extends Object>>() {
+                        @Override
+                        public Optional<? extends Object> apply(Object o) {
+                            return Optional.empty();
+                        }
+                    })
+         */
+        System.out.println("\nflatMap 把 Stream<List<String>>合并list");
         List<String> list = Arrays.asList("1", "2", "3");
-        Stream<List<String>> object = list.stream().flatMap(new Function<String, Stream<List<String>>>() {
+        list = list.stream().flatMap(new Function<String, Stream<List<String>>>() {
             @Override
             public Stream<List<String>> apply(String s) {
                 if ("1".equals(s)) {
@@ -124,8 +159,24 @@ public class MyLambdaTwo {
                 }
                 return Stream.of(null);
             }
-        });
-        System.out.println(object.flatMap(Collection::stream).collect(Collectors.toList()));
+        }).flatMap(listFlatMap -> listFlatMap.stream()).collect(Collectors.toList());
+        System.out.println(list);
+
+        list = Arrays.asList("1", "2", "3");
+        list = list.stream().map(new Function<String, List<String>>() {
+            @Override
+            public List<String> apply(String s) {
+                if ("1".equals(s)) {
+                    return Arrays.asList("1", "11", "111");
+                } else if ("2".equals(s)) {
+                    return Arrays.asList("2", "22", "222");
+                } else if ("3".equals(s)) {
+                    return Arrays.asList("3", "33", "333");
+                }
+                return null;
+            }
+        }).flatMap(listTemp -> listTemp.stream()).collect(Collectors.toList());
+        System.out.println(list);
 
     }
 }
