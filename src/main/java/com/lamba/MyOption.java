@@ -1,5 +1,8 @@
 package com.lamba;
 
+import org.apache.commons.collections.CollectionUtils;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -65,6 +68,24 @@ public class MyOption {
         objectMapOrElse = getOptionFunction(optional);
         showMembers((List) objectMapOrElse,"optional.map orElse with not null value");
 
+
+        /**
+         *  取得list里边第一个的Name
+         */
+        System.out.println("\n取得list里边第一个的Name");
+        List<MyEntity> myEntityList = new ArrayList<>();
+        myEntityList.add(null);
+        if (CollectionUtils.isNotEmpty(myEntityList)) {
+            MyEntity myEntity = myEntityList.get(0);
+            if (myEntity != null) {
+                System.out.println(myEntity.getName());
+            } else {
+                System.out.println("nullName");
+            }
+        }
+
+        System.out.println(Optional.ofNullable(myEntityList).filter(list -> CollectionUtils.isNotEmpty(list)).
+                map(list -> list.get(0)).map(info -> info.getName()).orElse("nullName"));
 
 
     }
