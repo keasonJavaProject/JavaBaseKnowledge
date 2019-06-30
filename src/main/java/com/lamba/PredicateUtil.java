@@ -1,8 +1,5 @@
 package com.lamba;
 
-import org.apache.commons.collections.CollectionUtils;
-import org.checkerframework.checker.nullness.Opt;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
@@ -33,7 +30,8 @@ public class PredicateUtil {
     }
 
     public static <T, R> R mapObjectToOneValue(T object, Function<T, R> function, R defaultValue) {
-        return Optional.ofNullable(object).map(function).orElse(defaultValue);
+        Optional<T> optionalT = Optional.ofNullable(object).filter(isObjectOk);
+        return optionalT.map(function).orElse(defaultValue);
     }
 
 }
