@@ -104,5 +104,28 @@ public class MyLambdaTwo {
         }, Collectors.averagingDouble(in -> in))));
         System.out.println(JSON.toJSONString(mapIdSumListIds));
 
+        System.out.println("\n取list里边的第一个元素");
+        List<Integer> lst = null;
+        int firstVal = Optional.ofNullable(lst).map(list -> list.get(0)).map(info -> info.intValue()).orElse(1);
+        System.out.println(firstVal);
+
+
+        System.out.println("flatMap 把 Stream<List<String>>合并list");
+        List<String> list = Arrays.asList("1", "2", "3");
+        Stream<List<String>> object = list.stream().flatMap(new Function<String, Stream<List<String>>>() {
+            @Override
+            public Stream<List<String>> apply(String s) {
+                if ("1".equals(s)) {
+                    return Stream.of(Arrays.asList("1", "11", "111"));
+                } else if ("2".equals(s)) {
+                    return Stream.of(Arrays.asList("2", "22", "222"));
+                } else if ("3".equals(s)) {
+                    return Stream.of(Arrays.asList("3", "33", "333"));
+                }
+                return Stream.of(null);
+            }
+        });
+        System.out.println(object.flatMap(Collection::stream).collect(Collectors.toList()));
+
     }
 }
