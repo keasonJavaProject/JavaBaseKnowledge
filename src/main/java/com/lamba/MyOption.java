@@ -15,6 +15,9 @@ public class MyOption {
     public static void main(String[] args) {
         Optional optional = Optional.empty();
         Optional optional1 = Optional.ofNullable(null);
+        Double s = null;
+        System.out.println(Optional.ofNullable(s).map(info->info.intValue()).orElse(1));
+        System.out.println( Optional.ofNullable(s).map(info->info.toString().trim()).orElse("11"));
         /**
          * Exception in thread "main" java.util.NoSuchElementException: No value present
          *         if (value == null) {
