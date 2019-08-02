@@ -2,6 +2,7 @@ package com.test;
 
 import com.util.dateFormat.DateFormatUtils;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -101,8 +102,21 @@ public class MyLocalDateTime {
         Date date = Date.from(instant);
         System.out.println("当前时间 toDate     " + DateFormatUtils.getFormatDateTime(date,DateFormatUtils.DATE_FORMAT_YYYY_MM_DD_HH_MM_SS));
 
+        //Date.toInstant()
         localDateTime = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         System.out.println("当前时间 指定时间 toLocalDateTime "+localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
+        //Calendar.toInstant()
+
+        System.out.println("\n计算时间差");
+        LocalDateTime start = LocalDateTime.of(2017, 1, 1, 1, 1);
+        LocalDateTime end = LocalDateTime.of(2017, 2, 1, 1, 1);
+
+        Duration result = Duration.between(start, end);
+        System.out.println(result.toDays()); //31
+        System.out.println(result.toHours()); //744
+        System.out.println(result.toMinutes()); //44640
+        System.out.println(result.toMillis()); //2678400000
+        System.out.println(result.toNanos()); //2678400000000000
     }
 }

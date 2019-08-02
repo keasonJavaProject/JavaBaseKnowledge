@@ -7,6 +7,8 @@ import org.apache.commons.collections.CollectionUtils;
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
@@ -171,5 +173,6 @@ public class MyLambda {
             }
         });
 
+        System.out.println(JSON.toJSONString(IntStream.range(1,10).toArray()));
     }
 }
