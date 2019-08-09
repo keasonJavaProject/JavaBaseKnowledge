@@ -1,7 +1,5 @@
 package com.lamba;
 
-import com.gy.jsonView.Student;
-
 import java.util.List;
 
 /**
