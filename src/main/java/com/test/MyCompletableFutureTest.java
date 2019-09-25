@@ -4,6 +4,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.BiConsumer;
 
+/**
+ *  通过 Reactor Mono实现的并发获取结果
+ * @see com.reactor.MyReactorTest
+ */
 public class MyCompletableFutureTest {
     public static void main(String[] args) {
         CompletableFuture completableFuture = CompletableFuture.supplyAsync(() -> {
