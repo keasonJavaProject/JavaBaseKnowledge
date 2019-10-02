@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.MapDifference;
 import com.google.common.collect.Maps;
+import org.apache.commons.lang3.ThreadUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -61,22 +62,31 @@ public class MyMapTest {
         System.out.println("\n\n\n\n Immutable 不能改变的,因此不能做增删改");
         Map mapImmu = null;
         try {
-            System.out.println("ImmutableMap.of(1, 2) remove()报异常");
             mapImmu = ImmutableMap.of("199", 199);
             mapImmu.remove(1);
+            System.out.println("ImmutableMap.of(1, 2) remove(1)" + mapImmu);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("ImmutableMap.of(1, 2) remove(1) 报异常" + e);
         }
 
         try {
-            System.out.println("ImmutableMap.of(1, 2) put()报异常");
             Map mapImmu2 = ImmutableMap.of(1, 2);
             mapImmu2.put(2,1);
+            System.out.println("ImmutableMap.of(1, 2) put(2,1) " + mapImmu2);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("ImmutableMap.of(1, 2) put(2,1) 报异常" + e);
         }
         map.putAll(mapImmu);
-        System.out.println("map putAll mapImmu" + map);
+        System.out.println("map putAll mapImmu 不报异常" + map);
+
+
+
+        Map mapNewHashMapOf = Maps.newHashMap(ImmutableMap.of(1, 1, 2, 2));
+        mapNewHashMapOf.remove(1);
+        System.out.println("\n\n\n Maps.newHashMap(ImmutableMap.of(1, 2, 3, 4)) remove(1) 不报错" + mapNewHashMapOf);
+
+        mapNewHashMapOf.put(1, 11);
+        System.out.println("Maps.newHashMap(ImmutableMap.of(1, 2, 3, 4)) put(1,11) 不报错" + mapNewHashMapOf);
 
     }
 }

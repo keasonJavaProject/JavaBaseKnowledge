@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef6d4dd-5ec2-4568-b5ea-f7fba19b981e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/MySetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java" afterDir="false" />
     </list>
     <ignored path="JavaBaseKnowledge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,75 +44,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MyEventBusTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eventbus/MyEventBusTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyForkJoinPoolTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyForkJoinPoolTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLocalDateTime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImmutableMap.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/collect/ImmutableMap.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-              <folding>
-                <element signature="e#8026#8027#0" expanded="true" />
-                <element signature="e#8083#8084#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            <state relative-caret-position="412">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -122,8 +59,8 @@
       <file leaf-file-name="MySetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MySetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="304">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,11 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyMapTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyLocalDateTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMapTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="400">
+              <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,14 +92,136 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Properties.java">
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+            <state relative-caret-position="473">
+              <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="3805" column="49" selection-start-line="3805" selection-start-column="49" selection-end-line="3805" selection-end-column="49" />
               <folding>
-                <element signature="e#4787#4788#0" expanded="true" />
-                <element signature="e#4813#4814#0" expanded="true" />
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+                <element signature="e#177353#177354#0" expanded="true" />
+                <element signature="e#177410#177411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomAccess.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/RandomAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.util.Arrays.ArrayList" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.Arrays.ArrayList">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.Arrays.ArrayList</OriginalElement>
+              <nodes>
+                <node x="655.21875" y="1588.0">java.util.RandomAccess</node>
+                <node x="432.25" y="1864.0">java.util.Arrays.ArrayList</node>
+                <node x="347.0" y="816.0">java.util.AbstractCollection</node>
+                <node x="0.0" y="667.0">java.util.List</node>
+                <node x="184.71875" y="149.0">java.util.Collection</node>
+                <node x="174.21875" y="1392.0">java.util.AbstractList</node>
+                <node x="197.71875" y="0.0">java.lang.Iterable</node>
+                <node x="521.21875" y="1588.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.Arrays.ArrayList" target="java.util.RandomAccess">
+                  <point x="93.33333333333331" y="-153.5" />
+                  <point x="665.5833333333333" y="1839.0" />
+                  <point x="723.21875" y="1839.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.Arrays.ArrayList" target="java.io.Serializable">
+                  <point x="0.0" y="-153.5" />
+                  <point x="572.25" y="1839.0" />
+                  <point x="578.21875" y="1839.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.List" target="java.util.Collection">
+                  <point x="0.0" y="-337.5" />
+                  <point x="163.5" y="642.0" />
+                  <point x="261.21875" y="642.0" />
+                  <point x="-76.5" y="234.0" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.List">
+                  <point x="-81.75" y="-211.0" />
+                  <point x="255.96875" y="1367.0" />
+                  <point x="163.5" y="1367.0" />
+                  <point x="0.0" y="337.5" />
+                </edge>
+                <edge source="java.util.Collection" target="java.lang.Iterable">
+                  <point x="0.0" y="-234.0" />
+                  <point x="0.0" y="49.5" />
+                </edge>
+                <edge source="java.util.Arrays.ArrayList" target="java.util.AbstractList">
+                  <point x="-93.33333333333331" y="-153.5" />
+                  <point x="478.9166666666667" y="1839.0" />
+                  <point x="337.71875" y="1839.0" />
+                  <point x="0.0" y="211.0" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+                  <point x="81.75" y="-211.0" />
+                  <point x="419.46875" y="1367.0" />
+                  <point x="500.0" y="1367.0" />
+                  <point x="0.0" y="188.5" />
+                </edge>
+                <edge source="java.util.AbstractCollection" target="java.util.Collection">
+                  <point x="0.0" y="-188.5" />
+                  <point x="500.0" y="642.0" />
+                  <point x="414.21875" y="642.0" />
+                  <point x="76.5" y="234.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-222.5" y="220.0" />
+              <SelectedNodes>
+                <node>java.util.List</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>protected</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCollection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="403" column="19" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11068">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+              <folding>
+                <element signature="e#5343#5344#0" expanded="true" />
+                <element signature="e#5400#5401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,6 +259,7 @@
       <find>flatM</find>
       <find>LocalDateTim</find>
       <find>subList</find>
+      <find>retain</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -249,8 +321,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eventbus/EventBusListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eventbus/MyEventBusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/MySetTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/MyListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java" />
       </list>
     </option>
   </component>
@@ -467,7 +539,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyListTest">
+  <component name="RunManager" selected="Application.MyMapTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -710,8 +782,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MyMapTest" />
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MySetTest" />
         <item itemvalue="Application.MyEventBusTest" />
         <item itemvalue="Application.MyReactorTest" />
@@ -786,7 +858,7 @@
       <workItem from="1566477884915" duration="9000" />
       <workItem from="1566520394422" duration="919000" />
       <workItem from="1569395287930" duration="8630000" />
-      <workItem from="1569978729243" duration="3069000" />
+      <workItem from="1569978729243" duration="5315000" />
     </task>
     <task id="LOCAL-00001" summary="提交一些基本的测试">
       <created>1501203900103</created>
@@ -1061,11 +1133,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569403524517</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="提交单元测试，Arrays.asList()不支持增删改和集合操作。&#10;Lists.newArrayList()支持增删改操作">
+      <created>1569982291360</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1569982291360</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253169000" />
+    <option name="totallyTimeSpent" value="255415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1215,7 +1294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.访问者模式" />
     <MESSAGE value="1.java 访问者模式" />
     <MESSAGE value="1.工厂模式" />
     <MESSAGE value="java 正则表达式，分组" />
@@ -1240,7 +1318,8 @@
     <MESSAGE value="工厂方法和抽象工厂的区别。" />
     <MESSAGE value="新则uML类关系图，区分extends implements,关联 依赖，组合 聚合的对比。" />
     <MESSAGE value="新增eventbus 和 reactor mono 多线程并发执行取值" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增eventbus 和 reactor mono 多线程并发执行取值" />
+    <MESSAGE value="提交单元测试，Arrays.asList()不支持增删改和集合操作。&#10;Lists.newArrayList()支持增删改操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交单元测试，Arrays.asList()不支持增删改和集合操作。&#10;Lists.newArrayList()支持增删改操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1373,6 +1452,12 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/MyListTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/gy/CommonOperation/AbstractMethod.java</url>
           <line>6</line>
@@ -1428,7 +1513,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1436,205 +1521,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.design.patterns.factory.abstractFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.design.patterns.factory.abstractFactory</OriginalElement>
-          <nodes>
-            <node x="273.25" y="0.0">com.design.patterns.factory.abstractFactory.Fruit</node>
-            <node x="10.5" y="173.0">com.design.patterns.factory.abstractFactory.TropicalFruit</node>
-            <node x="233.5" y="173.0">com.design.patterns.factory.abstractFactory.TropicalVeggie</node>
-            <node x="124.70000000000005" y="299.0">com.design.patterns.factory.abstractFactory.TropicalGardener</node>
-            <node x="764.3000000000001" y="299.0">com.design.patterns.factory.abstractFactory.NorthernGardener</node>
-            <node x="919.5" y="173.0">com.design.patterns.factory.abstractFactory.NorthernVeggie</node>
-            <node x="679.75" y="0.0">com.design.patterns.factory.abstractFactory.Veggie</node>
-            <node x="444.5" y="173.0">com.design.patterns.factory.abstractFactory.Gardener</node>
-            <node x="696.5" y="173.0">com.design.patterns.factory.abstractFactory.NorthernFruit</node>
-            <node x="473.0" y="425.0">com.design.patterns.factory.abstractFactory.Client</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.design.patterns.factory.abstractFactory.Gardener" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="-58.0" y="-38.0" />
-              <point x="502.5" y="123.0" />
-              <point x="371.25" y="123.0" />
-              <point x="14.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernVeggie" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="0.0" y="-38.0" />
-              <point x="1015.0" y="83.0" />
-              <point x="805.75" y="83.0" />
-              <point x="42.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernGardener" target="com.design.patterns.factory.abstractFactory.NorthernVeggie">
-              <point x="92.80000000000001" y="-38.0" />
-              <point x="973.1000000000001" y="279.0" />
-              <point x="1015.0" y="279.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Client" target="com.design.patterns.factory.abstractFactory.Gardener">
-              <point x="0.0" y="-26.5" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalVeggie" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="-1.1368683772161603E-13" y="-38.0" />
-              <point x="328.9999999999999" y="143.0" />
-              <point x="721.75" y="143.0" />
-              <point x="-42.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalGardener" target="com.design.patterns.factory.abstractFactory.Gardener">
-              <point x="92.79999999999995" y="-38.0" />
-              <point x="333.5" y="279.0" />
-              <point x="483.1666666666667" y="279.0" />
-              <point x="-77.33333333333331" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Client" target="com.design.patterns.factory.abstractFactory.NorthernGardener">
-              <point x="35.0" y="-26.5" />
-              <point x="595.5" y="395.0" />
-              <point x="880.3000000000001" y="395.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Client" target="com.design.patterns.factory.abstractFactory.TropicalGardener">
-              <point x="-35.0" y="-26.5" />
-              <point x="525.5" y="395.0" />
-              <point x="240.70000000000005" y="395.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernGardener" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="46.39999999999998" y="-38.0" />
-              <point x="926.7" y="279.0" />
-              <point x="909.0" y="279.0" />
-              <point x="909.0" y="93.0" />
-              <point x="777.75" y="93.0" />
-              <point x="14.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalGardener" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="-46.39999999999998" y="-38.0" />
-              <point x="194.30000000000007" y="279.0" />
-              <point x="212.0" y="279.0" />
-              <point x="212.0" y="123.0" />
-              <point x="343.25" y="123.0" />
-              <point x="-14.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalGardener" target="com.design.patterns.factory.abstractFactory.TropicalVeggie">
-              <point x="46.39999999999998" y="-38.0" />
-              <point x="287.1" y="269.0" />
-              <point x="329.0" y="269.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalGardener" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="0.0" y="-38.0" />
-              <point x="240.70000000000005" y="279.0" />
-              <point x="223.0" y="279.0" />
-              <point x="223.0" y="133.0" />
-              <point x="693.75" y="133.0" />
-              <point x="-70.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernGardener" target="com.design.patterns.factory.abstractFactory.NorthernFruit">
-              <point x="-46.400000000000034" y="-38.0" />
-              <point x="833.9000000000001" y="269.0" />
-              <point x="792.0" y="269.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernGardener" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="0.0" y="-38.0" />
-              <point x="880.3000000000001" y="279.0" />
-              <point x="898.0" y="279.0" />
-              <point x="898.0" y="103.0" />
-              <point x="427.25" y="103.0" />
-              <point x="70.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernGardener" target="com.design.patterns.factory.abstractFactory.Gardener">
-              <point x="-92.80000000000004" y="-38.0" />
-              <point x="787.5" y="279.0" />
-              <point x="637.8333333333334" y="279.0" />
-              <point x="77.33333333333337" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalFruit" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="0.0" y="-38.0" />
-              <point x="106.0" y="113.0" />
-              <point x="315.25" y="113.0" />
-              <point x="-42.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.TropicalGardener" target="com.design.patterns.factory.abstractFactory.TropicalFruit">
-              <point x="-92.80000000000007" y="-38.0" />
-              <point x="147.89999999999998" y="279.0" />
-              <point x="106.0" y="279.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Client" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="-70.0" y="-26.5" />
-              <point x="490.5" y="405.0" />
-              <point x="0.0" y="405.0" />
-              <point x="0.0" y="103.0" />
-              <point x="287.25" y="103.0" />
-              <point x="-70.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Gardener" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="58.0" y="-38.0" />
-              <point x="618.5" y="153.0" />
-              <point x="749.75" y="153.0" />
-              <point x="-14.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.NorthernFruit" target="com.design.patterns.factory.abstractFactory.Fruit">
-              <point x="0.0" y="-38.0" />
-              <point x="792.0" y="113.0" />
-              <point x="399.25" y="113.0" />
-              <point x="42.0" y="26.5" />
-            </edge>
-            <edge source="com.design.patterns.factory.abstractFactory.Client" target="com.design.patterns.factory.abstractFactory.Veggie">
-              <point x="70.0" y="-26.5" />
-              <point x="630.5" y="405.0" />
-              <point x="1121.0" y="405.0" />
-              <point x="1121.0" y="73.0" />
-              <point x="833.75" y="73.0" />
-              <point x="70.0" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-25.0" y="30.0" />
-          <SelectedNodes>
-            <node>com.design.patterns.factory.abstractFactory.Fruit</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/Anote">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/factory/factoryMethod_abstractFactory.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/decorate/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/decorate/strategy.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/strategy/strategy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/decorate/ConcreteDecoratorA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/patterns/decorate/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.design.patterns.decorate">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1994,30 +1880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MySetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/collect/ImmutableMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -2047,10 +1909,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="184">
+          <caret line="708" column="19" selection-start-line="708" selection-start-column="19" selection-end-line="708" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="333" column="12" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Arrays.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Arrays.ArrayList</OriginalElement>
+          <nodes>
+            <node x="655.21875" y="1588.0">java.util.RandomAccess</node>
+            <node x="432.25" y="1864.0">java.util.Arrays.ArrayList</node>
+            <node x="347.0" y="816.0">java.util.AbstractCollection</node>
+            <node x="0.0" y="667.0">java.util.List</node>
+            <node x="184.71875" y="149.0">java.util.Collection</node>
+            <node x="174.21875" y="1392.0">java.util.AbstractList</node>
+            <node x="197.71875" y="0.0">java.lang.Iterable</node>
+            <node x="521.21875" y="1588.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Arrays.ArrayList" target="java.util.RandomAccess">
+              <point x="93.33333333333331" y="-153.5" />
+              <point x="665.5833333333333" y="1839.0" />
+              <point x="723.21875" y="1839.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.Arrays.ArrayList" target="java.io.Serializable">
+              <point x="0.0" y="-153.5" />
+              <point x="572.25" y="1839.0" />
+              <point x="578.21875" y="1839.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-337.5" />
+              <point x="163.5" y="642.0" />
+              <point x="261.21875" y="642.0" />
+              <point x="-76.5" y="234.0" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="-81.75" y="-211.0" />
+              <point x="255.96875" y="1367.0" />
+              <point x="163.5" y="1367.0" />
+              <point x="0.0" y="337.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-234.0" />
+              <point x="0.0" y="49.5" />
+            </edge>
+            <edge source="java.util.Arrays.ArrayList" target="java.util.AbstractList">
+              <point x="-93.33333333333331" y="-153.5" />
+              <point x="478.9166666666667" y="1839.0" />
+              <point x="337.71875" y="1839.0" />
+              <point x="0.0" y="211.0" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="81.75" y="-211.0" />
+              <point x="419.46875" y="1367.0" />
+              <point x="500.0" y="1367.0" />
+              <point x="0.0" y="188.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-188.5" />
+              <point x="500.0" y="642.0" />
+              <point x="414.21875" y="642.0" />
+              <point x="76.5" y="234.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-222.5" y="220.0" />
+          <SelectedNodes>
+            <node>java.util.List</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>protected</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3805" column="49" selection-start-line="3805" selection-start-column="49" selection-end-line="3805" selection-end-column="49" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="403" column="19" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11068">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="e#5343#5344#0" expanded="true" />
+            <element signature="e#5400#5401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MySetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyLocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2059,8 +2075,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="412">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/MyMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

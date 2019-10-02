@@ -64,7 +64,6 @@ public class MyListTest {
         }
 
 
-
         //数组笛卡尔积
         System.out.println("数组笛卡尔积");
         List listOne = Lists.newArrayList(1, 2, 3);
