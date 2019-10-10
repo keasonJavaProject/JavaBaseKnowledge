@@ -37,5 +37,37 @@ public class MyArraysTest {
         System.out.println(JSON.toJSONString(s));
 
 
+        //Arrays.copyOf()方法主要是为了给原有数组扩容
+        System.out.println("\n\nArrays.copyOf(a, 10),把大小为3的数组，扩容为10 ");
+        int[] a = new int[3];
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 2;
+        int[] b = Arrays.copyOf(a, 10);
+        System.out.println(JSON.toJSONString(b));
+
+
+        System.out.println("\n\nSystem.arraycopy(arr, 2, arr, 3, 3)");
+        int[] arr = new int[10];
+        arr[0] = 0;
+        arr[1] = 1;
+        arr[2] = 2;
+        arr[3] = 3;
+        //[0,1,2,3,0,0,0,0,0,0]
+        System.out.println("before System.arraycopy " + JSON.toJSONString(arr));
+
+        // [0,1,2,3,0,0,0,0,0,0]  第2个位置期Copy3个（即：2,3,0），
+        // [*,*,*,2,3,0,*,*,*,*]
+        // [0,1,2,2,3,0,0,0,0,0] 最终结果
+        System.arraycopy(arr, 2, arr, 3, 3);
+        System.out.println("after System.arraycopy " + JSON.toJSONString(arr));
+
+
+        //[0,1,2,2,3,0,0,0,0,0]  >> [0,1,99,2,3,0,0,0,0,0]
+        arr[2]=99;
+        System.out.println("after change arr[2]=99 " + JSON.toJSONString(arr));
+
+
+
     }
 }
