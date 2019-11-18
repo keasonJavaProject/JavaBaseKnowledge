@@ -1,10 +1,13 @@
 package com.test;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.*;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class MyCompletableFutureTwoTest {
     private static ExecutorService executorService = Executors.newFixedThreadPool(8);
@@ -26,6 +29,29 @@ public class MyCompletableFutureTwoTest {
             e.printStackTrace();
         }
         System.out.println(LocalDateTime.now());
+
+
+        //取得所有结果
+        System.out.println("CompletableFuture.allOf 取得所有结果,同一个stream，先用Array进行计算，然后再收集stream结果");
+        CompletableFuture future1=  CompletableFuture.supplyAsync(() ->{waitLong("first One");return "first One";});
+        CompletableFuture future2= CompletableFuture.supplyAsync(()->{waitLong("second One");return "second One";});
+        CompletableFuture future3=  CompletableFuture.supplyAsync(()->{waitLong("second One");return "second One";});
+        //转化为stream
+        Stream<CompletableFuture<String>> completableFutureStream = Stream.of(future1, future2, future3);
+
+        //stream 转成List
+        List<CompletableFuture<String>> completableFutureList = completableFutureStream.collect(Collectors.toList());
+
+        //list 转成Array
+        CompletableFuture<String>[] completableFuturesArray = completableFutureList.toArray(new CompletableFuture[completableFutureList.size()]);
+
+        CompletableFuture<Void> completableFutureResult = CompletableFuture.allOf(completableFuturesArray);
+        completableFutureResult.join();
+
+        System.out.println(completableFutureList.stream().map(CompletableFuture::join).collect(Collectors.toList()));
+
+
+
 
         //任一一个完成,取最快完成的那个
         System.out.println("\n\nCompletableFuture.anyOf");
