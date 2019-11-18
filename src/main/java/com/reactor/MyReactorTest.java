@@ -1,13 +1,18 @@
 package com.reactor;
 
+import com.alibaba.fastjson.JSON;
+import com.test.MyCompletableFutureTwoTest;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;
 
 import javax.security.auth.callback.Callback;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 并发请求返回结果
@@ -21,14 +26,32 @@ public class MyReactorTest {
         Flux<Integer> ints = Flux.range(1, 3);
         ints.subscribe();
 
-        System.out.println("并发返回多个结果");
+        System.out.println("并发返回多个结果testOneMono()");
         testOneMono();
+
+
+        System.out.println("\n\n并发返回多个结果testManyFlux() ");
+        testManyFlux();
 
     }
 
 
-    private static void testCallable() {
-//      new Callback()
+    private static void testManyFlux() {
+        Flux flux = Flux.just(CompletableFuture.supplyAsync(() -> {
+                    MyCompletableFutureTwoTest.waitLong("testManyFlux One");
+                    return "testManyFlux One";
+                })
+                , CompletableFuture.supplyAsync(() -> {
+                    MyCompletableFutureTwoTest.waitLong("testManyFlux Two");
+                    return "testManyFlux Two";
+                }),
+                CompletableFuture.supplyAsync(()->{
+                    MyCompletableFutureTwoTest.waitLong("testManyFlux three");
+                    return "testManyFlux three";
+                })
+        );
+        Mono<List<String>> listResults = flux.collect(Collectors.toList());
+        System.out.println("testManyFlux listResults " + JSON.toJSONString(listResults.blockOptional().get()));
     }
 
 

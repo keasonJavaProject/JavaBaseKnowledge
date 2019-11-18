@@ -110,7 +110,7 @@ public class MyCompletableFutureTwoTest {
 
     }
 
-    private static int waitLong(String sout) {
+    public static int waitLong(String sout) {
         try {
             Random random = new Random();
             System.out.println(sout + " start time = " + LocalDateTime.now());
