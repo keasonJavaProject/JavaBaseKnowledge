@@ -6,7 +6,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;
 
-import javax.security.auth.callback.Callback;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -17,11 +17,11 @@ import java.util.stream.Stream;
 /**
  * 并发请求返回结果
  * @see com.test.MyCompletableFutureTest
- * @see com.test.MyCompletableFutureTwoTest
+ * @see MyCompletableFutureTwoTest
  *  react 代码相关测试用例
  *  {@link  "https://projectreactor.io/docs/core/release/reference/"}
  */
-public class MyReactorTest {
+public class MyReactorMonoAndFluxTest {
     public static void main(String[] args) {
         Flux<Integer> ints = Flux.range(1, 3);
         ints.subscribe();
@@ -36,8 +36,12 @@ public class MyReactorTest {
     }
 
 
+    /**
+     * Publisher : flux 的例子
+     *  an Asynchronous Sequence of 0-N Items
+     */
     private static void testManyFlux() {
-        Flux flux = Flux.just(CompletableFuture.supplyAsync(() -> {
+        Flux<CompletableFuture<String>> flux = Flux.just(CompletableFuture.supplyAsync(() -> {
                     MyCompletableFutureTwoTest.waitLong("testManyFlux One");
                     return "testManyFlux One";
                 })
@@ -45,16 +49,21 @@ public class MyReactorTest {
                     MyCompletableFutureTwoTest.waitLong("testManyFlux Two");
                     return "testManyFlux Two";
                 }),
-                CompletableFuture.supplyAsync(()->{
+                CompletableFuture.supplyAsync(() -> {
                     MyCompletableFutureTwoTest.waitLong("testManyFlux three");
                     return "testManyFlux three";
                 })
         );
-        Mono<List<String>> listResults = flux.collect(Collectors.toList());
-        System.out.println("testManyFlux listResults " + JSON.toJSONString(listResults.blockOptional().get()));
+        Mono<List<CompletableFuture<String>>> completableFutureMono = flux.collectList();
+        Stream<CompletableFuture<String>> completableFutureStream = completableFutureMono.blockOptional().orElse(Collections.emptyList()).stream();
+        System.out.println("testManyFlux listResults " + JSON.toJSONString(completableFutureStream.map(CompletableFuture::join).collect(Collectors.toList())));
     }
 
 
+    /**
+     *Publisher  : mono的例子
+     * an Asynchronous 0-1 Result
+     */
     private static void testOneMono() {
         System.out.println(new Date());
         Mono<String> mo1 = Mono.fromFuture(CompletableFuture.supplyAsync(() -> {
