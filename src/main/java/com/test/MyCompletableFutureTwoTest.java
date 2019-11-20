@@ -123,4 +123,13 @@ public class MyCompletableFutureTwoTest {
         }
         return -1;
     }
+
+    public static void waitLong(String sout,Long timeM) {
+        try {
+            Thread.sleep(timeM);
+            System.out.println(timeM + " wait " + timeM);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

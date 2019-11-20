@@ -1,6 +1,8 @@
 package com.reactor;
 
 import reactor.core.publisher.Flux;
+import reactor.core.scheduler.Scheduler;
+import reactor.core.scheduler.Schedulers;
 
 import java.util.function.Function;
 
@@ -47,6 +49,11 @@ public class MyReactorFluxTest {
         },()->{
             System.out.println("Done");
         });
+
+
+        System.out.println("\n\nFlux.range(1, 2).repeat(2)");
+        Flux.range(1, 2).repeat(2).subscribe(ii -> System.out.println(ii));
+
     }
 
 
