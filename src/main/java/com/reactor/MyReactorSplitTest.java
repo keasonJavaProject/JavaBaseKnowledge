@@ -13,7 +13,7 @@ import java.util.function.Function;
 import static com.test.MyCompletableFutureTwoTest.waitLong;
 
 /**
- * 并发请求返回结果
+ *  流spite测试用例
  * @see com.test.MyCompletableFutureTest
  * @see com.test.MyCompletableFutureTwoTest
  *  react 代码相关测试用例
