@@ -15,9 +15,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * 并发请求返回结果
- * @see com.test.MyCompletableFutureTest
- * @see MyCompletableFutureTwoTest
+ *  reactive 并发请求返回结果 测试
  *  react 代码相关测试用例
  *  {@link  "https://projectreactor.io/docs/core/release/reference/"}
  */

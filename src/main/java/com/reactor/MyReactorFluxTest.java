@@ -1,16 +1,9 @@
 package com.reactor;
 
 import reactor.core.publisher.Flux;
-import reactor.core.scheduler.Scheduler;
-import reactor.core.scheduler.Schedulers;
-
-import java.util.function.Function;
 
 /**
- * 并发请求返回结果
- * @see com.test.MyCompletableFutureTest
- * @see com.test.MyCompletableFutureTwoTest
- *  react 代码相关测试用例
+ *  reactive subscribe  代码相关测试用例
  *  {@link  "https://projectreactor.io/docs/core/release/reference/"}
  */
 public class MyReactorFluxTest {
@@ -50,9 +43,6 @@ public class MyReactorFluxTest {
             System.out.println("Done");
         });
 
-
-        System.out.println("\n\nFlux.range(1, 2).repeat(2)");
-        Flux.range(1, 2).repeat(2).subscribe(ii -> System.out.println(ii));
 
     }
 
