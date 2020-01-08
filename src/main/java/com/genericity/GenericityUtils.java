@@ -1,4 +1,9 @@
 package com.genericity;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+
 //泛型擦除补偿机制
 public class GenericityUtils {
     /**
@@ -6,8 +11,16 @@ public class GenericityUtils {
        class newInsatance 需要类有构造器。
        这种方式不推荐，请参考显示工厂
      */
-    public<T> T getInstance(Class<T> tClass) throws IllegalAccessException, InstantiationException {
+    public static  <T> T getInstance(Class<T> tClass) throws IllegalAccessException, InstantiationException {
         return tClass.newInstance();
+    }
+
+    public static <T> T[] getArray(Class<T> tClass,int size) {
+       return (T[])  Array.newInstance(tClass, size);
+    }
+
+    public static <T> List<T> getList(Class<T> tClass) {
+        return new ArrayList<T>();
     }
 
 
@@ -15,7 +28,7 @@ public class GenericityUtils {
      *  obj instanceof T 报错
      }
      */
-    public <T> boolean isInstnaceOf(Object object,Class<T> kind){
+    public static <T> boolean isInstnaceOf(Object object,Class<T> kind){
             return kind.isInstance(object);
     }
 
